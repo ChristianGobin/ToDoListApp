@@ -15,7 +15,11 @@ $("ul").on("click", "span", function (event) {
 $("input").keypress(function(event) { 
     if(event.which === 13){
         var todoText=$(this).val();
-        $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>");
+        $("ul").append("<li><span><i class='fa fa-trash-o'></i></span> " + todoText + "</li>");
         $(this).val("");
     }
+});
+
+$("#expand").on("click", function () {
+    $("input").slideToggle();
 });

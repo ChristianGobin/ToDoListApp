@@ -79,3 +79,6 @@ span {
   transition: 0.2s linear;
   opacity: 0;
 }
+#expand{
+  float: right;
+}
