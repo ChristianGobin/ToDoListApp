@@ -9,5 +9,5 @@
 
 <p>
   <h4> What I learned : </h4>
-  <li> How to Create a functioning light weight single page App </li>
+  <li> Event handling using jquery </li>
  </p>
